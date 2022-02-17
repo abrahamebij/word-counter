@@ -47,9 +47,13 @@ textarea{
     resize: none;
     width: 100%;
     height: 50vh;
-    padding: 4px;
+    padding: 9px;
     outline: none;
     border: none;
+    font-family: Georgia, 'Times New Roman', Verdana, monospace, Times, serif;
+    font-size: calc(100% - 4px);
+    line-height: 1.35;
+    letter-spacing: 1px;
 }
 .main p{
     position: absolute;
@@ -65,4 +69,18 @@ textarea{
 
 #decision{
     margin-top: 50px;
+}
+
+@media only screen and (max-width:300px) {
+    .main{
+        min-width: 100px;
+        width: 90%;
+    }
+    .main p{
+        font-size: 12px;
+        text-align: center;
+    }
+    textarea{
+        font-size: calc(100% - 5px);
+    }
 }
