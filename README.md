@@ -1,2 +1,2 @@
 # Word Counter
-**Demo:** https://ademola1235.github.io/word-counter/
+**Demo:** https://abrahamebij.github.io/word-counter/
